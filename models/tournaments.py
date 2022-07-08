@@ -1,4 +1,4 @@
-class Tournament:
+class Tournaments:
     
     def __init__(self, players='', tours=[], name='', place ='', date='', number_of_turns=[], time = ['bullet', 'blitz', 'coup rapide'], description=''):
 
@@ -10,5 +10,3 @@ class Tournament:
         self.number_of_turns = number_of_turns
         self.time = time
         self.description = description
-
-    print('tournois créé. ')
