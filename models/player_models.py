@@ -25,4 +25,4 @@ class Players :
             'total_score': self.total_score
 
         }
-    
+
