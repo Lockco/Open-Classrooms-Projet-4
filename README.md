@@ -81,6 +81,8 @@ Pour la suite des instructions je conseille aux utilisateurs de Windows d'utilis
         __pycache__,
         venv
     ```
+    
+    - Exécuter la commande suivante : ```flake8 --format=html --htmldir=flake-report --exclude=env/```
 ## Logiciel utilisé
 [Visual Studio Code] (https://code.visualstudio.com/download)
 [gitbash] (https://git-scm.com/downloads)
