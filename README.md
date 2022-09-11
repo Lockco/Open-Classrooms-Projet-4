@@ -53,8 +53,21 @@ Pour la suite des instructions je conseille aux utilisateurs de Windows d'utilis
 
     Attention : pour éviter de rencontrer des problème avec ```pip``` veillez à vérifier que PYTHONPATH soit correctement configurées : 
     ([PYTHONPATH](https://datatofish.com/add-python-to-windows-path/))
+    
+5. **Lancement du programme**
 
-5. **Générer le rapport Flake8.**
+    Pour le démarrage du programme dans votre terminal verifier que vous êtes dans le dossier 
+    où le projet a été cloné avec la commande suivante
+
+    Sous linux : ```ls``` 
+    Sous windows : ```dir```
+    
+    
+    puis lancer le script à l'aide de la commande suivante :
+
+    ```py __main__.py```
+
+6. **Générer le rapport Flake8.**
 
     - Installer flake8 avec la commande suivante : ```pip install flake8-html```
 
