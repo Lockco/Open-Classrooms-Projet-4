@@ -94,7 +94,7 @@ def load_tournament(serialized_tournament):
 
 def load_rounds(serialized_tournament, tournament):
     """Fonction de chargement des rounds"""
-    
+
     loaded_rounds = []
 
     for round in serialized_tournament["rounds"]:
