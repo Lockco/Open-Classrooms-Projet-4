@@ -37,7 +37,8 @@ Pour la suite des instructions je conseille aux utilisateurs de Windows d'utilis
 
     Copier le programme source:
 
-
+    ```git clone https://github.com/Lockco/Open-Classrooms-Projet-4```
+    
 2. **Creer un environnement virtuel.**
 
     Depuis windows/mac/linux: ```python3 -m venv env``` ou ```py -m venv env```
