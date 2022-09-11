@@ -89,4 +89,4 @@ Pour la suite des instructions je conseille aux utilisateurs de Windows d'utilis
 
 ## Remerciements
 
-Merci à **Julien**, **Thibault**, pour leur patience et leur aide précieuse.
+Merci à **Julien** son aide précieuse.
