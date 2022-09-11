@@ -1,5 +1,4 @@
-# OpenClassrooms_projet_2_Loic
-# Version béta d'un programme de scraping.
+# OpenClassrooms_projet_4_Loic
 
 Le programme suivant, créé dans le cadre du projet 4 du parcours d'OpenClassrooms, est un gestionnaire de tournois d'échecs 
 
