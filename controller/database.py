@@ -105,10 +105,10 @@ def load_rounds(serialized_tournament, tournament):
         for pair in round["players_pairs"]:
             for player in tournament.players:
                 print(f"***\nInfo joueurs : {player}\n***\n")
-                if player.name == pair[0]["name"]:
+                if player.name == pair[0]["first_name"]:
                     pair_p1 = player
                     print(f"Première paire{pair_p1}")
-                elif player.name == pair[1]["name"]:
+                elif player.name == pair[1]["first_name"]:
                     pair_p2 = player
             players_pairs.append((pair_p1, pair_p2))
 
@@ -129,9 +129,9 @@ def load_match(serialized_match, tournament):
     player1 = None
     player2 = None
     for player in tournament.players:
-        if player.name == serialized_match["player1"]["name"]:
+        if player.name == serialized_match["player1"]["first_name"]:
             player1 = player
-        elif player.name == serialized_match["player2"]["name"]:
+        elif player.name == serialized_match["player2"]["first_name"]:
             player2 = player
 
     loaded_match = Match(players_pair=(player1, player2), name=serialized_match["name"])
