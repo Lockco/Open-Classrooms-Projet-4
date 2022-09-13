@@ -124,8 +124,6 @@ class Tournaments:
     def get_serialized_tournament(self, save_rounds=False):
         """Lorsqu'on sauvegarde suite à la création, les rounds ne sont pas encore créés."""
 
-        print([player for player in self.players])
-        print([type(player) for player in self.players])
         serialized_tournament = {
             "name": self.name,
             "place": self.place,
