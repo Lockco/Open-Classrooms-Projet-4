@@ -107,7 +107,6 @@ def load_rounds(serialized_tournament, tournament):
                 print(f"***\nInfo joueurs : {player}\n***\n")
                 if player.name == pair[0]["first_name"]:
                     pair_p1 = player
-                    print(f"Première paire{pair_p1}")
                 elif player.name == pair[1]["first_name"]:
                     pair_p2 = player
             players_pairs.append((pair_p1, pair_p2))
