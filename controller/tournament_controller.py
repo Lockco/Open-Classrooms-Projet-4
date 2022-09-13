@@ -136,7 +136,7 @@ def play_tournament(tournament, new_tournament_loaded=False):
                         tournament.get_serialized_tournament(save_rounds=True),
                     )
 
-                # Pour charge un tournoi
+                # Pour charger un tournoi
                 elif user_input == "5":
                     serialized_loaded_tournament = LoadTournament().display_menu()
                     tournament = load_tournament(serialized_loaded_tournament)
