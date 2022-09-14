@@ -84,7 +84,7 @@ class Tournaments:
                 # On assigne le joueur 1 au dernier joueur de la liste inférieur
                 except IndexError:
                     player2 = inferior_part[i]
-                    print(f"execept{player2}")
+                    print(f"{player2}")
                     players_pairs.append((player, player2))
 
                 # On assigne les joueurs dans la liste qui leur corresponde
