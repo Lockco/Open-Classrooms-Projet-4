@@ -1,0 +1,68 @@
+{
+    "_default": {
+        "1": {
+            "name": "Duplessis",
+            "first_name": "Dielle",
+            "date_of_birth": "01-01-1990",
+            "gender": "F",
+            "total_score": 12.0,
+            "ranking": 4
+        },
+        "2": {
+            "name": "Vaillancour",
+            "first_name": "Camille",
+            "date_of_birth": "02-02-1990",
+            "gender": "F",
+            "total_score": 25.0,
+            "ranking": 3
+        },
+        "3": {
+            "name": "Martin",
+            "first_name": "Marine",
+            "date_of_birth": "03-03-1990",
+            "gender": "F",
+            "total_score": 32.0,
+            "ranking": 2
+        },
+        "4": {
+            "name": "Lamare",
+            "first_name": "Bernard",
+            "date_of_birth": "04-04-1990",
+            "gender": "H",
+            "total_score": 24.5,
+            "ranking": 5
+        },
+        "5": {
+            "name": "Narcisse",
+            "first_name": "Daniel",
+            "date_of_birth": "05-05-1990",
+            "gender": "H",
+            "total_score": 36.0,
+            "ranking": 1
+        },
+        "6": {
+            "name": "Neufville",
+            "first_name": "Babette",
+            "date_of_birth": "06-06-1990",
+            "gender": "F",
+            "total_score": 9.5,
+            "ranking": 8
+        },
+        "7": {
+            "name": "Metivier",
+            "first_name": "Andr\u00e9",
+            "date_of_birth": "07-07-1990",
+            "gender": "H",
+            "total_score": 11.0,
+            "ranking": 6
+        },
+        "8": {
+            "name": "Mailloux",
+            "first_name": "Marc",
+            "date_of_birth": "07-07-1990",
+            "gender": "H",
+            "total_score": 10.0,
+            "ranking": 7
+        }
+    }
+}
