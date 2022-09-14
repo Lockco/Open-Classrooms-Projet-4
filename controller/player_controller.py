@@ -29,7 +29,7 @@ def create_player():
 def update_rankings(player, rank, score=True):
     if score:
         player.total_score += player.tournament_score
-    player.rank = rank
+    player.ranking = rank
     serialized_player = player.get_serialized_player(save_tournament_score=True)
     update_player_rank("players", serialized_player)
     print(
